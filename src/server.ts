@@ -17,6 +17,9 @@ app.get('/test', (req: express.Request, res: express.Response) => {
 	});
 });
 
+app.get('/flashcards', (req: express.Request, res: express.Response) => {
+	res.json(model.getFlashcards());
+});
 
 app.listen(config.port, () => {
 	console.log(`listening on port http://localhost:${config.port}`);

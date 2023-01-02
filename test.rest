@@ -5,3 +5,6 @@
 
 ### TEST
 {{url}}/test
+
+### FLASHCARDS 
+{{url}}/flashcards

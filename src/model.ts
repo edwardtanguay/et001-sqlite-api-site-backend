@@ -1,3 +1,7 @@
+export const getFlashcards = () => {
+	return ['from model.ts'];
+}
+
 export const getApiInstructions = () => {
 	return `
 <style>
